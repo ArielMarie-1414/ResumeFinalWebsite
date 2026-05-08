@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+header{
+	text-align: center;
+}
+
+h1{
+ color:#ffb3d9;
+}
+
+h2{
+	color:#ffb3d9;
+}
+
+h3{
+	color: #bf80ff ;
+	text-align: center;
+}
+
+
+h1. h2{ 
+	font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+	color:#bf80ff ;
+}
+
+ul{
+	color:#bf80ff;
+}
+
+.home-hero{
+	background-image: url(images/background.png);
+	background-size: cover;
+}
+
+.home-hero h1{
+	font-family: ;
+	color: white ;
+	font-size: 60px ;
+	text-shadow: 2px 2px 2px black ;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+
+canvas{
+	background-image: url(images/background.png);
+	background-size: cover;
+	border-color: #ffb3d9 ;
+	margin: 10px auto;
+	display: block;
+	padding: 0px;
+
+}
+
+.myButton{
+	font-family: "Delius", serif;
+	background-color: #bf80ff;
+	color: white;
+	border-color: #ffb3d9 ;
+	margin: 5px auto;
+	display: block;
+	padding: 5px;
+}
+
+body{
+	background-color:#f2e6ff;
+	font-family: "Delius", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+}
+
+footer{
+	clear: both;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: #b300b3;
+}
+a:visited{
+	color: #b300b3;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+/* Navigation */
+nav{
+	background-color: #ffe6f2;
+	border-top: 3px solid #ffcce6;
+	border-bottom: 3px solid #ffcce6;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display:inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #6600cc;
+}
+nav a:visited{
+	color: #6600cc;
+}
+nav a:hover{
+	color: #8c1aff;
+}
+nav a:active{
+	color: #7300e6;
+}
+
+/* Main */
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+/* Footer */
+footer{
+	border-top: #ffcce6 3px solid;
+	text-align: center;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+  font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
